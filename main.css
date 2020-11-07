@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: blue;
+}
+header{
+    background: black;
+    color: white;
+    display: flex;
+    margin: 0;     
+}
+section{
+    background: blue;
+    padding: 20px;
+}
+.navbar{
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+.menu{
+    margin: 0px 0px 0px 90%;
+}
+button{
+    border: none;
+}
+ul{
+    list-style-type: none;
+}
+
