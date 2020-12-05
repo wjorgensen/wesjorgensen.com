@@ -27,15 +27,41 @@ ul{
     display: flex;
     flex-wrap: wrap;
 }
-.buttons{
-    padding: 120px;
-    margin: 5px;
-    border-radius:  10px;
-    border: none;
+.square{
+    height: 400px;
+    width: 400px;
     background-color: white;
-    font-size: 50px;
-    color: rgb(66, 66, 66);
+    border-radius: 10px;
+    margin: 15px;
 }
-#first{
-    padding: 70px 120px;
+#Name{
+    height: 400px;
+    width: 800px;
+}
+@font-face{
+    font-family: YesterdayAgain;
+    src: url(Yesterday\ Again.ttf);
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(Montserrat-Medium.ttf);
+}
+body section ul li p{
+    font-family: Montserrat;
+}
+#hi{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 70px;
+    margin-bottom:0px;
+}
+#invisible 
+{
+    color:white;
+}
+#Signature{
+    font-family: YesterdayAgain;
+    text-align: center;
+    font-size: 105px;
+    margin-top: 40px;
 }
