@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background:rgb(78, 163, 243);
+    background:rgb(0, 0, 0);
 }
 nav{
     display: flex;
@@ -9,7 +9,7 @@ nav{
     width: 100%;
     overflow: auto;
     height: auto;
-    color: white;
+    color: #009CDF;
  }
  .left-links{
     flex:1 1 200px;
@@ -22,21 +22,24 @@ nav{
     font-size: 17px;
     font-weight: bolder;
  }
+ body nav div button{
+     background-color: #009CDF;
+ }
 ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
 }
 .square{
-    height: 400px;
-    width: 400px;
-    background-color: white;
+    height: 330px;
+    width: 410px;
+    background-color: #5EBD3E;
     border-radius: 10px;
     margin: 15px;
 }
 #Name{
-    height: 400px;
-    width: 800px;
+    height: 330px;
+    width: 850px;
 }
 @font-face{
     font-family: YesterdayAgain;
@@ -48,6 +51,7 @@ ul{
 }
 body section ul li p{
     font-family: Montserrat;
+    color: black;
 }
 #hi{
     text-align: center;
@@ -57,11 +61,29 @@ body section ul li p{
 }
 #invisible 
 {
-    color:white;
+    color:#5EBD3E;
+    margin-bottom: 0px;
 }
 #Signature{
     font-family: YesterdayAgain;
     text-align: center;
-    font-size: 105px;
-    margin-top: 40px;
+    font-size: 115px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#Contact
+{
+    background-color:  #F78200;
+}
+#Portfolio
+{
+    background-color: #E23838;
+}
+#Resume
+{
+    background-color: #973999;
+}
+#Tutoring
+{
+    background-color: #009CDF;
 }
